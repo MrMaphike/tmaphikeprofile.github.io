@@ -31,6 +31,7 @@ nav{
 main{
     height: 500px;
     width: 1024px;
+    text-align: center;
 }
 
 footer{
@@ -40,12 +41,21 @@ footer{
 }
 
 h1{
-    font-size: 80px;
-    text-align:start;
+    font-size: 50px;
     color: rgba(0, 0, 0, 0.644);
     font-family: fantasy,Arial, Helvetica, sans-serif;
 }
 
+p{
+    font-size: 24px;
+    color:rgba(245, 245, 245, 0.397);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main a {
+    color:rgb(31, 59, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 nav a {
     color: white;
@@ -62,44 +72,15 @@ footer p{
     color:whitesmoke;
 }
 
-main img{
-    float: left;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border: black 5px;
-    padding: 1px;
+.containerProjects{
+    width: 495px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.473); float: left;
+    border: 1px solid rgba(255, 255, 255, 0.404);
 }
 
-.abtme{
-    width: 99%;
-    height: 99%;
-    background-color: rgba(0, 0, 0, 0.411);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.abtmecontent{
-    width: 500px;
-    height: 500px;
-    background-color: white;
-    border-radius: 4px;
-    text-align: center;
-    position: relative;
-}
-
-.close{
-    position: absolute;
-    top:0;
-    right: 14px;
-    font-size: 40px;
-    transform: rotate(45deg);
-    cursor: pointer;
+p1{
+    color: whitesmoke;
 }
 
 

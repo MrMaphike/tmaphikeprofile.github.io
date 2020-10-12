@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: rgba(42, 41, 41, 0.746);
+    background-color: rgba(0, 0, 0, 0.555);
     background-image: url(images/backgroundAboutMe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,17 +11,17 @@ body{
 }
 
 .contact_form{
-    width: 80%;
-    max-width: 300px ;
+    width: 45%;
+    max-width: 650px ;
     background: rgba(255, 255, 255, 0.555);
-    position: absolute;;
-    top:50%;
+    position: absolute;
+    align-self: flex-end;
+    top:70%;
     left:50%;
     transform: translate(-50%,-50%);
-    padding: 20px 30px;
-    padding-top: 20px;
+    padding: 10px 20px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 5px;
     text-align: center;
     box-shadow: rgb(24, 34, 5);
     font-family: Arial, Helvetica, sans-serif;    
@@ -102,7 +102,7 @@ footer{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 45px;
     color: rgba(0, 0, 0, 0.644);
     font-family: fantasy,Arial, Helvetica, sans-serif;
 }
